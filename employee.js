@@ -1,4 +1,3 @@
-
 var add_list = document.querySelector(".add-btn");
 
 var modal_body = document.querySelector(".modal-body");
