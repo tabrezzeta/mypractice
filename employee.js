@@ -55,7 +55,7 @@ form.addEventListener('submit', (event) => {
   var delEdit_td = document.createElement("td");
   
 
-  newtdimage.innerHTML = `<img src=${uploaded_image.src} alt="">`;
+  newtdimage.innerHTML = `<img class="newtdimage" src=${uploaded_image.src} alt="">`;
   newtdname.innerHTML = name;
   newtdidno.innerHTML = idno;
   newtdsalary.innerHTML = salary;
