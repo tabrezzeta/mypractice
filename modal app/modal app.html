@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal App</title>
+    <link rel="stylesheet" href="modal app.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="modal-container">
+        <h3>Modal App</h3>
+        <button class="open-btn">Open</button>
+    </div>
+
+    <div class="modal-app-body">
+       <div class="modal-div">
+            <h3>Welcome Modal App</h3>
+            <button class="close-btn" title="close">&times;</button>
+            
+            <div class="qr_div">
+                <input type="text" name="" id="input_url" placeholder="Enter URL">
+
+                <div class="loading-div"></div>
+
+                <div class="qr_area">
+                    <img src="" alt="" id="qr_img">
+                </div>
+                <button id="generate" onclick="generate_qr()"><b>Generate QR</b></button>
+                
+                <button class="download_qr" onclick="download_qr()"><b><i class="fa fa-download"></i> Download QR</b></button>
+            </div>
+       </div>
+    </div>
+    
+
+    <script src="modal app.js"></script>
+</body>
+</html>

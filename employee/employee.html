@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Details</title>
+
+    <link rel="stylesheet" href="employee.css">
+    <script src="https://kit.fontawesome.com/4cd5df1758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div class="list-header">
+
+    <h2 class="employee-heading">Employee Details </h2>
+    <button class="add-btn"><i class="fa-solid fa-user-plus"></i> Add Employee</button>
+</div>
+
+<div class="list">
+    <table class="table-list" border="1px" cellspacing="0">
+       
+        <tr class="table-header">
+            <th>Photo</th>
+            <th>Name</th>
+            <th>ID No.</th>
+            <th>Salary</th>
+            <th class="action">Action</th>
+        </tr>
+        <tbody class="tbody"></tbody>
+        <!-- <tr>
+            <td class="employee-image"><img src="pic.png" alt=""></td>
+            <td>Raja</td>
+            <td>4016</td>
+            <td>124630</td>
+        </tr> -->
+       </tbody>
+    </table>
+
+</div>
+
+<div class="modal-body">
+
+    <div class="modal-employee">
+        <div class="title"><h4 class="operation_title">CRUD Title</h4> <b> <span class="close-btn" title="close form">&times;</span></b></div>
+        
+        <br>
+        <div class="profile-div">
+            <!-- <input type="file" class="upload" id="upload"> -->
+            <div id="upload" >
+
+                <!-- <div id="profile_pic"></div> -->
+                <img src="profile.jfif" id="profile_pic" alt="" >
+            </div>
+            <input type="file" id="file" name="" value="">
+           
+        </div>
+        <div class="form-div">
+            <form class="add-form" action="" autocomplete="off">
+                <label for="name">Name</label>
+                <input type="text" name="" id="name">
+                <br> <br>
+                <label for="idno">ID No.</label>
+                <input type="text" name="" id="idno">
+                <br> <br>
+                <label for="salary">Salary</label>
+                <input type="text" name="" id="salary">
+                <br> <br>
+
+                <input class="submit" type="submit" value="SUBMIT">
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="employee.js"></script>
+</body>
+</html>

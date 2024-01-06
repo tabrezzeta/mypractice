@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(47, 66, 68);
+}
+.main-div{
+    text-align: center;
+    width: 380px;
+    margin-left: 33%;
+    margin-top: 20px;
+   
+   
+    
+}
+.todo-div{
+    height: 200px;;
+    background-color: rgb(227, 248, 248);
+    border-radius: 10px 10px 0 0;
+    padding: 5px 15px 20px 15px;
+}
+.todo-div input{
+   
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    border: 2px solid rgb(47, 66, 68);
+    border-radius: 3px;
+}
+.main-div button{
+    padding: 7px;
+    border: 1px solid black;
+    
+    font-size: 17px;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: rgb(15, 15, 15);
+    /* background-color: rgb(27, 31, 32); */
+}
+
+.main-div button:hover{
+    background-color: black;
+    color: white;
+
+}
+.main-div button:active{
+    background-color: blue;
+}
+
+#date,#time{
+    margin-top: 10px;
+}
+#date{
+    float: left;
+    font-family: sans-serif;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(34, 69, 81);
+}
+
+#time{
+    float: right;
+    font-family: sans-serif;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(34, 69, 81);
+}
+#time h4,#date h4{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#time p,#date p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+    font-style: italic;
+}
+
+
+
+
+.list-container{
+    padding-left: 0;
+    position:relative;
+    margin-top: 0;
+    
+    list-style: none;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: x-large;
+    
+}
+.list-container img{
+    padding: 7px;
+    cursor: pointer;
+    
+    margin-right: -6px;
+    margin-top: -6px;
+    float: right;
+}
+.list-container img:hover{
+    background-color: black;
+    
+}
+.list-container li input{
+    font-size: x-large;
+    margin-right: 15px;
+}
+
+.list-container li{
+    
+    padding: 6px;
+    padding-left: 20px;
+}
+.list-container li:nth-child(odd){
+    background-color: rgb(251, 231, 207);
+}
+.list-container li:hover{
+    background-color: rgb(65, 126, 3);
+}
+
+
+.list-div{
+    
+    background-color: rgb(255, 210, 156);
+}
+.check_box:hover{
+    cursor: pointer;
+}
